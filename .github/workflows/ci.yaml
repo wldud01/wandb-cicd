@@ -10,6 +10,6 @@ jobs:
       - name: hello
         run: echo "hello world"
       - name: run python script
-        run: python -m pip install --upgrade pip
+        run: pip install python==3.11.0
           pip install wandb
           python ci.py
